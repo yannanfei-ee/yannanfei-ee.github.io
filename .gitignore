@@ -1,0 +1,34 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local logs and temporary files
+*.log
+.cache/
+tmp/
+temp/
+
+# Local source archive/extraction artifacts
+ref.zip
+ref/
+
+# Local backup of the old profile photo
+img/photo.jpg
