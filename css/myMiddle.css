@@ -72,5 +72,24 @@ table#noborder-mid {
     border-bottom: none;
 }
 
+/*
+ *  CV-style entry: institution + right-aligned date on first line,
+ *  details stacked left-aligned below in the same cell
+ */
+table#cvtable {
+    border: none;
+    width: 100%;
+}
+#cvtable td {
+    padding: 2px 0;
+    border: none;
+    text-align: left;
+    vertical-align: top;
+}
+#cvtable td.c2 {
+    text-align: right;
+    white-space: nowrap;
+}
+
 
 
