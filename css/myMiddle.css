@@ -19,6 +19,23 @@ body {
   max-width: 1160px;
 }
 
+a,
+a > tt,
+h1,
+h2,
+h3,
+#layout-menu a.current:link,
+#layout-menu a.current:visited,
+#layout-menu a:link,
+#layout-menu a:visited,
+#layout-menu a:hover {
+  color: #d35400;
+}
+
+a:hover {
+  color: #a64000;
+}
+
 
 *{
    margin:0;
@@ -32,6 +49,16 @@ ul{
 li{
   padding-left: 1.4em;
   margin-left:  2.4em;
+}
+
+ul.research-interests {
+  margin-bottom: 0.8em;
+}
+
+ul.research-interests li {
+  padding-left: 0.2em;
+  margin-left: 1.2em;
+  line-height: 1.5;
 }
 
 
@@ -76,19 +103,54 @@ table#noborder-mid {
  *  CV-style entry: institution + right-aligned date on first line,
  *  details stacked left-aligned below in the same cell
  */
-table#cvtable {
+table.cvtable {
     border: none;
     width: 100%;
 }
-#cvtable td {
+.cvtable td {
     padding: 2px 0;
     border: none;
     text-align: left;
     vertical-align: top;
 }
-#cvtable td.c2 {
+.cvtable td.c2 {
     text-align: right;
     white-space: nowrap;
+}
+
+.cvtable td.education-logo {
+    width: 72px;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+
+.cvtable td.education-logo img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cvtable td.experience-logo {
+    width: 104px;
+    padding-left: 16px;
+    vertical-align: middle;
+}
+
+.cvtable td.experience-logo img {
+    display: block;
+    width: 96px;
+    height: 44px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.cvtable td.experience-logo img.logo-on-dark {
+    box-sizing: border-box;
+    padding: 10px 6px;
+    border-radius: 3px;
+    background: #17233f;
 }
 
 
