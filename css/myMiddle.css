@@ -36,6 +36,13 @@ a:hover {
   color: #a64000;
 }
 
+p.epigraph {
+  margin-top: 0.6em;
+  margin-bottom: 1.2em;
+  color: #555555;
+  text-align: right;
+}
+
 
 *{
    margin:0;
