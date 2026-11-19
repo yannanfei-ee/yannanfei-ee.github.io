@@ -50,6 +50,28 @@ li{
   margin-left:  2.4em;
 }
 
+.news-box {
+  margin: 0.7em 0 1em;
+  padding: 0.6em 1em;
+  border: 1px solid #e4d5c8;
+  background: #fff8f0;
+}
+
+.news-box ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.news-box li {
+  margin: 0;
+  padding-left: 0.2em;
+}
+
+.news-box p {
+  margin: 0;
+  line-height: 1.5;
+}
+
 ul.research-interests {
   margin-bottom: 0.8em;
 }
